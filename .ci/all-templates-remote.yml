@@ -1,0 +1,18 @@
+version: v2.0
+ 
+name: 全部语法测试(模板)-远程模板
+
+on:
+  mr:
+    target-branches:
+      - master
+  
+extends:
+  template: all-test/all-extend.yml@all-template
+
+
+resources:
+  repositories:
+    - repository: ci-stream-test/all-test-templates
+      name: all-template
+      # ref: remote  # 可选  
