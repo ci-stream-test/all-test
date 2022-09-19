@@ -26,7 +26,3 @@ extends:
   parameters:
     service: SropThirtySevenCgi
 
-resources:
-  repositories:
-    - repository: prod-ci-test/all-test-templates
-      name: all-template
