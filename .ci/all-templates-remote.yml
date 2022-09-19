@@ -8,7 +8,7 @@ on:
       - master
   
 extends:
-  template: all-test/remote/all-extends.yml@all-template
+  template: all-test/all-extend.yml@all-template
 
 
 resources:
