@@ -11,4 +11,4 @@ gates:
   - type: wework-message
     receivers: ${{ parameters.receivers }}
   continue-on-fail:
-    gatekeepers: JamiKX1,randychen,royalhuang,ruotiantang,yongyiduan
+    gatekeepers: [JamiKX1,randychen,royalhuang,ruotiantang,yongyiduan]
