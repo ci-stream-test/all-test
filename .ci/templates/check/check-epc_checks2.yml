@@ -7,7 +7,7 @@ parameters:
 gates:
 - name: gate-2
   rule:     
-  - CodeCCCheckAtom.coverity_serious_defect < 1
+  - CodeCCCheckAtom.checkstyle_all_defect < 1
   notify-on-fail:
   - type: email
     receivers: ${{ parameters.receivers }}
