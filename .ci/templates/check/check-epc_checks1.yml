@@ -6,9 +6,9 @@ parameters:
 gates:
 - name: gate-1
   rule:     
-  - CodeccCheckAtomDebug.coverity_serious_defect < 1
+  - CodeCCCheckAtom.coverity_serious_defect < 1
   notify-on-fail:
   - type: wework-message
     receivers: ${{ parameters.receivers }}
   continue-on-fail:
-    gatekeepers: [xuzhan,ddlin,fayewang,jamikxu,randychen,royalhuang,ruotiantang]
+    gatekeepers: [JamiKX1,randychen,royalhuang,ruotiantang,yongyiduan]
