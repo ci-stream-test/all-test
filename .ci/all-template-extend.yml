@@ -22,7 +22,7 @@ on:
   
  
 extends:
-  template: all-test/all-extend.yml
+  template: all-test/all-extends.yml
   parameters:
     service: SropThirtySevenCgi
 
