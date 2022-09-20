@@ -164,11 +164,8 @@ notices:
 
 resources:
   repositories:
-    - repository: prod-ci-test/all-test-templates
+    - repository: ci-stream-test/all-test-templates
       name: all-template
       ref: master  # 可选
-    - repository: prod-ci-test/all-test-templates
+    - repository: ci-stream-test/all-test-templates
       name: variablesRepo
-      ref: variables  # 可选
-      credentials: # 可选，默认为开启CI的用户
-        personal-access-token: ${{ settings.my_private_token.access_token }}    
