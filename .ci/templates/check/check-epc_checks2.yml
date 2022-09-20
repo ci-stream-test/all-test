@@ -7,9 +7,9 @@ parameters:
 gates:
 - name: gate-2
   rule:     
-  - CodeccCheckAtomDebug.coverity_serious_defect < 1
+  - CodeCCCheckAtom.checkstyle_all_defect < 1
   notify-on-fail:
   - type: email
     receivers: ${{ parameters.receivers }}
   continue-on-fail:
-    gatekeepers: [xuzhan,ddlin,fayewang,jamikxu,randychen,royalhuang,ruotiantang]
+    gatekeepers: [JamiKX1,randychen,royalhuang,ruotiantang,yongyiduan]

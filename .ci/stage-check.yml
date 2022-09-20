@@ -15,7 +15,7 @@ stages:
           echo "前置stage"
       - name: "腾讯代码分析(官方-代码分析工作组)"
         id: "step_2"
-        uses: "CodeccCheckAtomDebug@4.*"
+        uses: "CodeCCCheckAtom@1.*"
         with:
           beAutoLang: false
           languages:

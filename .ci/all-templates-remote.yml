@@ -9,6 +9,8 @@ on:
   
 extends:
   template: all-test/all-extend.yml@all-template
+  parameters:
+    service: my_service
 
 
 resources:
