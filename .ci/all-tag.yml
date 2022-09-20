@@ -5,13 +5,12 @@ name: 全部语法测试-TAG(无模板)
 on:
   tag:
     tags:
-      - tag-all-*
+      - tag-*
     from-branches:
-      - trigger-all
+      - master
   
 variables:
   WINDOW_TRIGGER: false
-  CHAT_ID: ww230072302
   EVENT: xxx
  
 stages:
