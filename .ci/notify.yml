@@ -1,0 +1,11 @@
+version: v2.0
+steps:
+- run: echo 1q
+
+notices:
+- type: email
+  title: this is a email notice
+  content: this is a email notice,content is hello.
+  receivers:
+    - yongyiduan@tencent.com
+    - randychen@tencent.com
