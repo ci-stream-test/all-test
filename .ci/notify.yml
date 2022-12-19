@@ -5,7 +5,7 @@ steps:
 notices:
 - type: email
   title: this is a email notice 
-  content: this is a email notice,content is hello.
+  content: this is a email notice,content is hello. 
   receivers:
     - yongyiduan@tencent.com
     - randychen@tencent.com
