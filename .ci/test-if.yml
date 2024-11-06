@@ -14,10 +14,10 @@ jobs:
       id: step_1
       if: "variables.a == ''"
       run: |
-          echo ${{ variables.a }}
+          echo ${{ variables.a }} 
           echo ${{ variables.b }}
           echo ${{ variables.c }}
-          echo ::set-variable name=b::bbb
+          echo ::set-variable name=b::bbb 
     - name: a_not_blank
       if: "variables.a != ''"
       id: step_2
